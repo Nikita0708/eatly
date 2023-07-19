@@ -36,23 +36,23 @@ export const App = () => {
     <div className="wrapper">
     <header className="header">
       <div className="container">
-        <a href="#" onClick={() => handleItemClick(1)} className="header-logo">
+        <a href="/" onClick={() => handleItemClick(1)} className="header-logo">
           <svg className="header-logo-svg" width={112} height={42.3}>
             <use href={svg + '#icon-logo'}></use>
           </svg>
         </a>
         <ul className="header-list">
           <li className="header-item">
-            <a href="#" className="header-link" onClick={() => handleItemClick(2)}>Menu</a>
+            <a href="/" className="header-link" onClick={() => handleItemClick(2)}>Menu</a>
           </li>
           <li className="header-item">
-            <a href="#" className="header-link" onClick={() => handleItemClick(3)}>Blog</a>
+            <a href="/" className="header-link" onClick={() => handleItemClick(3)}>Blog</a>
           </li>
           <li className="header-item">
-            <a href="#" className="header-link" onClick={() => handleItemClick(4)}>Pricing</a>
+            <a href="/" className="header-link" onClick={() => handleItemClick(4)}>Pricing</a>
           </li>
           <li className="header-item">
-            <a href="#" className="header-link" onClick={() => handleItemClick(5)}>Contact</a>
+            <a href="/" className="header-link" onClick={() => handleItemClick(5)}>Contact</a>
           </li>
         </ul>
           <div className="header-btn-wrap">
@@ -65,23 +65,23 @@ export const App = () => {
       <footer className="footer">
         <div className="container">
           <div className="footer-top-wrap">
-            <a href="#" onClick={() => handleItemClick(1)} className="footer-logo">
+            <a href="/" onClick={() => handleItemClick(1)} className="footer-logo">
             <svg className="footer-logo-svg" width={112} height={42.3}>
               <use href={svg + '#icon-logo'}></use>
             </svg>
             </a>
             <ul className="footer-list">
               <li className="footer-item">
-                <a href="#" className="footer-link" onClick={() => handleItemClick(2)}>Menu</a>
+                <a href="/" className="footer-link" onClick={() => handleItemClick(2)}>Menu</a>
               </li>
               <li className="footer-item">
-                <a href="#" className="footer-link" onClick={() => handleItemClick(3)}>Blog</a>
+                <a href="/" className="footer-link" onClick={() => handleItemClick(3)}>Blog</a>
               </li>
               <li className="footer-item">
-                <a href="#" className="footer-link" onClick={() => handleItemClick(4)}>Pricing</a>
+                <a href="/" className="footer-link" onClick={() => handleItemClick(4)}>Pricing</a>
               </li>
               <li className="footer-item">
-                <a href="#" className="footer-link" onClick={() => handleItemClick(5)}>Contact</a>
+                <a href="/" className="footer-link" onClick={() => handleItemClick(5)}>Contact</a>
               </li>
             </ul>
           </div>
@@ -89,28 +89,28 @@ export const App = () => {
             <span className="footer-rights">© 2023 EATLY All Rights Reserved.</span>
             <ul className="footer-socials">
               <li className="footer-soc-item">
-                <a href="" className="footer-soc-link">
+                <a href="/" className="footer-soc-link">
                   <svg className="footer-soc-svg" width={21.4}  height={21.4}>
                     <use href={svg + '#icon-instagram'}></use>
                   </svg>
                 </a>
               </li>
               <li className="footer-soc-item">
-                <a href="" className="footer-soc-link">
+                <a href="/" className="footer-soc-link">
                   <svg className="footer-soc-svg" width={21.4} height={21.4}>
                     <use href={svg + '#icon-linkedin'}></use>
                   </svg>
                 </a>
               </li>
               <li className="footer-soc-item">
-                <a href="" className="footer-soc-link">
+                <a href="/" className="footer-soc-link">
                   <svg className="footer-soc-svg" width={21.4} height={21.4}>
                     <use href={svg + '#icon-facebook'}></use>
                   </svg>
                 </a>
               </li>
               <li className="footer-soc-item">
-                <a href="" className="footer-soc-link">
+                <a href="/" className="footer-soc-link">
                   <svg className="footer-soc-svg" width={21.4} height={21.4}>
                     <use href={svg + '#icon-twitter'}></use>
                   </svg>

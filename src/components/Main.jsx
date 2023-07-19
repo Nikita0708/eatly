@@ -250,7 +250,7 @@ export const Main = () => {
                             </div>
                         </li>
                     </ul>
-                    <a href="#" className="restaurants-link">View All</a>
+                    <a href="/" className="restaurants-link">View All</a>
                 </div>
             </section>
             <section className="control">
