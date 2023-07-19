@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		clientX = e.pageX
 		clientY = e.pageY
 
-		let request = requestAnimationFrame(updateMe)
+		requestAnimationFrame(updateMe)
 	})
 
 	function updateMe() {

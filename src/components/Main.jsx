@@ -151,7 +151,7 @@ export const Main = () => {
                             </svg>
                         </li>
                     </ul>
-                    <a href="#" className="restaurants-link">View All</a>
+                    <a href="/" className="restaurants-link">View All</a>
                 </div>
             </section>
             <section className="dishes">
