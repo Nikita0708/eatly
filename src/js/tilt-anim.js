@@ -1,7 +1,6 @@
 import { gsap } from 'gsap'
 
-// After update OptimizedHTML5
-let cx, cy, clientX, clientY, dx, dy, tiltx, tilty, request, radius, degree
+let cx, cy, clientX, clientY, dx, dy, tiltx, tilty, radius, degree
 
     
 document.addEventListener('DOMContentLoaded', () => {
@@ -15,8 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		clientX = e.pageX
 		clientY = e.pageY
 
-		request = requestAnimationFrame(updateMe)
-
+		let request = requestAnimationFrame(updateMe)
 	})
 
 	function updateMe() {
