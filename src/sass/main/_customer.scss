@@ -1,0 +1,73 @@
+.customer-slider {
+    margin-top: 116px;
+    & .container {
+        padding-bottom: 217px;
+    }
+}
+.customer-title {
+    font-family: Poppins;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0.56;
+        text-align: center;
+        margin-bottom: 80px;
+}
+.review-wrap {
+    border-radius: 13px;
+    background-color: #fff;
+    padding: 38px 43px;
+    overflow: hidden;
+    position: relative;
+}
+.review-img {
+    border-radius: 100px;
+    margin-right: 20px;
+}
+.review-top-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.customer-name {
+    color: #030314;
+        font-family: Poppins;
+        font-size: 20.893px;
+        font-weight: 500;
+        line-height: 1.5;
+}
+.customer-time {
+    color: #5E5D5D;
+        font-size: 16.715px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.56;
+}
+.review-svg {
+    margin-left: auto;
+    margin-right: 0;
+}
+.review-text {
+    color: #636363;
+        text-align: justify;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.45;
+        margin-bottom: 39px;
+}
+.swiper-horizontal>.swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -0;
+    top: unset;
+    z-index: 50;
+    background: #6b5fbc57;
+    height: 11px;
+    width: 667px;
+}
+.swiper-scrollbar-drag {
+    background-color: #6C5FBC;
+}
