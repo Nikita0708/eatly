@@ -2,6 +2,9 @@
 
 @import-normalize;
 /* bring in normalize.css styles */
+html {
+  overflow-x: hidden;
+}
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
@@ -63,6 +66,9 @@ h1, h2, h3 {
   --black-color: #201F1F;
   --background-color: #F9F9F9;
   --white-color: #ffffff;
+}
+.questions-answer__disabled {
+  display: none;
 }
 .hero-tilt-animation {
   padding-top: 80px;

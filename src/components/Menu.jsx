@@ -27,6 +27,27 @@ export const Menu = () => {
     }
   };
 
+  // function showAnswer() {
+  //   const questionContainers = document.querySelectorAll('.question-container');
+
+  //   questionContainers.forEach(container => {
+  //     const question = container.querySelector('.questions-item-title');
+  //     const answer = container.querySelector('.questions-answer');
+
+  //     question.addEventListener('click', () => {
+  //       answer.classList.toggle('questions-answer__disabled');
+  //     });
+  //   });
+  // }
+  // showAnswer();
+  const showAnswer = evt => {
+    const answers = evt.currentTarget.querySelectorAll('.questions-answer');
+
+    answers.forEach(answer => {
+      answer.classList.toggle('questions-answer__disabled');
+    });
+  };
+
   return (
     <React.Fragment>
       <section className="hero">
@@ -85,15 +106,21 @@ export const Menu = () => {
             Frequently Asked <span>Questions</span>
           </h1>
           <ul className={[s['questions-list']]}>
-            <li className={[s['questions-item']]}>
-              <div className={[s['accordion']]}>
-                <h2 className={[s['questions-item-title']]}>
-                  How long does delivery take?
-                </h2>
-              </div>
-              <div className={[s['panel']]}>
-                <p>Lorem ipsum...</p>
-              </div>
+            <li className="question-container" onClick={showAnswer}>
+              <h2 className="questions-item-title">
+                How long does delivery take?
+              </h2>
+              <p className="questions-answer questions-answer__disabled">
+                Lorem ipsum
+              </p>
+            </li>
+            <li className="question-container" onClick={showAnswer}>
+              <h2 className="questions-item-title">
+                How long does delivery take?
+              </h2>
+              <p className="questions-answer questions-answer__disabled">
+                Lorem ipsum
+              </p>
             </li>
           </ul>
         </div>
