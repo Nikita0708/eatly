@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eatly/static/css/main.cf819223.css",
-    "main.js": "/eatly/static/js/main.df7c2064.js",
+    "main.js": "/eatly/static/js/main.047c7afa.js",
     "static/media/hero-img.png": "/eatly/static/media/hero-img.354d2f31c80f607527f4.png",
     "static/media/mobile.jpg": "/eatly/static/media/mobile.ee2e33195f0d826ee8f5.jpg",
     "static/media/chicken-rest.jpg": "/eatly/static/media/chicken-rest.6193995b01ae37cc0f9c.jpg",
@@ -15,10 +15,10 @@
     "static/media/info-bg.jpg": "/eatly/static/media/info-bg.fc90b647ce6a615dd624.jpg",
     "index.html": "/eatly/index.html",
     "main.cf819223.css.map": "/eatly/static/css/main.cf819223.css.map",
-    "main.df7c2064.js.map": "/eatly/static/js/main.df7c2064.js.map"
+    "main.047c7afa.js.map": "/eatly/static/js/main.047c7afa.js.map"
   },
   "entrypoints": [
     "static/css/main.cf819223.css",
-    "static/js/main.df7c2064.js"
+    "static/js/main.047c7afa.js"
   ]
 }
