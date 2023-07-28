@@ -1,7 +1,7 @@
 import { gsap } from 'gsap'
+// import s from '../css/main/main.module.css';
 
 let cx, cy, clientX, clientY, dx, dy, tiltx, tilty, radius, degree
-
     
 document.addEventListener('DOMContentLoaded', () => {
     const body = document.querySelector('body')
@@ -24,6 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		tilty = dx / cx
 		radius = Math.sqrt(Math.pow(tiltx, 2) + Math.pow(tilty, 2))
 		degree = radius * 14
-		gsap.to('.main_hero__KzVMw', 1, { transform: `rotate3d( ${tiltx}, ${tilty}, 0, ${degree}deg )` })
+		gsap.to('.hero-tilt-animation', 1, { transform: `rotate3d( ${tiltx}, ${tilty}, 0, ${degree}deg )` })
 	}
 })

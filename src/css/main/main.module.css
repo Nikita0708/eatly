@@ -67,19 +67,9 @@ h3 {
   --white-color: #ffffff;
 }
 
-.hero {
-  padding-top: 80px;
-  padding-bottom: 120px;
-}
-.hero .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.hero-container {
-  transform-style: preserve-3d;
-}
+
+
 
 .hero-top-text {
   text-transform: uppercase;

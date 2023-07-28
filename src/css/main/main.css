@@ -1,0 +1,7 @@
+.hero-tilt-animation {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.preserve {
+    transform-style: preserve-3d;
+}

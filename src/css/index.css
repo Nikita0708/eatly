@@ -64,6 +64,17 @@ h1, h2, h3 {
   --background-color: #F9F9F9;
   --white-color: #ffffff;
 }
+.hero-tilt-animation {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  transform-style: preserve-3d;
+}
+.hero-tilt-container {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+  transform-style: preserve-3d;
+}
 
 .header {
   padding-top: 47px;
