@@ -69,29 +69,29 @@ export const App = () => {
         <footer className="footer">
           <div className="container">
             <div className="footer-top-wrap">
-              <NavLink exact to="/" className="footer-logo">
+              <NavLink exact to="/eatly/" className="footer-logo">
                 <svg className="footer-logo-svg" width={112} height={42.3}>
                   <use href={svg + '#icon-logo'}></use>
                 </svg>
               </NavLink>
               <ul className="footer-list">
                 <li className="footer-item">
-                  <NavLink to="./Menu" className="footer-link">
+                  <NavLink to="/eatly/Menu" className="footer-link">
                     Menu
                   </NavLink>
                 </li>
                 <li className="footer-item">
-                  <NavLink to="./Blog" className="footer-link">
+                  <NavLink to="/eatly/Blog" className="footer-link">
                     Blog
                   </NavLink>
                 </li>
                 <li className="footer-item">
-                  <NavLink to="./Pricing" className="footer-link">
+                  <NavLink to="/eatly/Pricing" className="footer-link">
                     Pricing
                   </NavLink>
                 </li>
                 <li className="footer-item">
-                  <NavLink to="./Contact" className="footer-link">
+                  <NavLink to="/eatly/Contact" className="footer-link">
                     Contact
                   </NavLink>
                 </li>
