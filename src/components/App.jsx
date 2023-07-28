@@ -28,22 +28,22 @@ export const App = () => {
             </NavLink>
             <ul className="header-list">
               <li className="header-item">
-                <NavLink to="/eatly/Menu/" className="header-link">
+                <NavLink to="./Menu/" className="header-link">
                   Menu
                 </NavLink>
               </li>
               <li className="header-item">
-                <NavLink exact to="/eatly/Blog/" className="header-link">
+                <NavLink exact to="./Blog/" className="header-link">
                   Blog
                 </NavLink>
               </li>
               <li className="header-item">
-                <NavLink exact to="/eatly/Pricing/" className="header-link">
+                <NavLink exact to="./Pricing/" className="header-link">
                   Pricing
                 </NavLink>
               </li>
               <li className="header-item">
-                <NavLink exact to="/eatly/Contact/" className="header-link">
+                <NavLink exact to="./Contact/" className="header-link">
                   Contact
                 </NavLink>
               </li>
@@ -76,22 +76,22 @@ export const App = () => {
               </NavLink>
               <ul className="footer-list">
                 <li className="footer-item">
-                  <NavLink exact to="/eatly/Menu/" className="footer-link">
+                  <NavLink exact to="./Menu/" className="footer-link">
                     Menu
                   </NavLink>
                 </li>
                 <li className="footer-item">
-                  <NavLink exact to="/eatly/Blog/" className="footer-link">
+                  <NavLink exact to="./Blog/" className="footer-link">
                     Blog
                   </NavLink>
                 </li>
                 <li className="footer-item">
-                  <NavLink exact to="/eatly/Pricing/" className="footer-link">
+                  <NavLink exact to="./Pricing/" className="footer-link">
                     Pricing
                   </NavLink>
                 </li>
                 <li className="footer-item">
-                  <NavLink exact to="/eatly/Contact/" className="footer-link">
+                  <NavLink exact to="./Contact/" className="footer-link">
                     Contact
                   </NavLink>
                 </li>
