@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eatly/static/css/main.59ae4ec7.css",
-    "main.js": "/eatly/static/js/main.11463db9.js",
+    "main.css": "/eatly/static/css/main.4544215f.css",
+    "main.js": "/eatly/static/js/main.74585200.js",
     "static/media/hero-img.png": "/eatly/static/media/hero-img.354d2f31c80f607527f4.png",
     "static/media/mobile.jpg": "/eatly/static/media/mobile.ee2e33195f0d826ee8f5.jpg",
     "static/media/chicken-rest.jpg": "/eatly/static/media/chicken-rest.6193995b01ae37cc0f9c.jpg",
@@ -14,11 +14,11 @@
     "static/media/svg.svg": "/eatly/static/media/svg.d1e0219941bd9576fb6ecee87dee2444.svg",
     "static/media/info-bg.jpg": "/eatly/static/media/info-bg.fc90b647ce6a615dd624.jpg",
     "index.html": "/eatly/index.html",
-    "main.59ae4ec7.css.map": "/eatly/static/css/main.59ae4ec7.css.map",
-    "main.11463db9.js.map": "/eatly/static/js/main.11463db9.js.map"
+    "main.4544215f.css.map": "/eatly/static/css/main.4544215f.css.map",
+    "main.74585200.js.map": "/eatly/static/js/main.74585200.js.map"
   },
   "entrypoints": [
-    "static/css/main.59ae4ec7.css",
-    "static/js/main.11463db9.js"
+    "static/css/main.4544215f.css",
+    "static/js/main.74585200.js"
   ]
 }
