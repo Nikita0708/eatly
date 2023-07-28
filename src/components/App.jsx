@@ -60,7 +60,7 @@ export const App = () => {
         </header>
         <Routes>
           <Route path="*" element={<Main />} />
-          <Route path="/" element={<Main />} />
+          <Route path="/eatly/" element={<Main />} />
           <Route path="/Menu" element={<Menu />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Blog" element={<Blog />} />
