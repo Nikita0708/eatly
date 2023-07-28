@@ -59,11 +59,12 @@ export const App = () => {
           </div>
         </header>
         <Routes>
+          <Route path="*" element={<Main />} />
           <Route exact path="/" element={<Main />} />
-          <Route exact path="/Menu" element={<Menu />} />
-          <Route exact path="/Contact" element={<Contact />} />
-          <Route exact path="/Blog" element={<Blog />} />
-          <Route exact path="/Pricing" element={<Pricing />} />
+          <Route path="/Menu" element={<Menu />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Blog" element={<Blog />} />
+          <Route path="/Pricing" element={<Pricing />} />
         </Routes>
         <footer className="footer">
           <div className="container">
