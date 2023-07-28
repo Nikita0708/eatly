@@ -1,0 +1,15 @@
+.swiper-horizontal>.swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    top: unset;
+    z-index: 50;
+    background: rgba(107, 95, 188, 0.3411764706);
+    height: 11px;
+    width: 667px;
+}
+
+.swiper-scrollbar-drag {
+    background-color: #6C5FBC;
+}
