@@ -3,6 +3,7 @@ import { Main } from 'components/Main';
 import { Blog } from 'components/Blog';
 import { Pricing } from 'components/Pricing';
 import { Contact } from 'components/Contact';
+import { Article } from './Article';
 import React from 'react';
 
 import {
@@ -65,6 +66,7 @@ export const App = () => {
           <Route path="/eatly/Contact" element={<Contact />} />
           <Route path="/eatly/Blog" element={<Blog />} />
           <Route path="/eatly/Pricing" element={<Pricing />} />
+          <Route path="/eatly/Article" element={<Article />} />
         </Routes>
         <footer className="footer">
           <div className="container">

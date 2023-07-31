@@ -1,0 +1,194 @@
+.article {
+    padding-top: 126px;
+    padding-bottom: 168px;
+}
+.article_title {
+    color: #252525;
+        font-family: Poppins;
+        font-size: 37.401px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.19;
+        margin-bottom: 32px;
+}
+.article_wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 62px;
+}
+.article_thumb {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 14px;
+}
+.top_span {
+    color: #8D8D8D;
+        font-family: Poppins;
+        font-size: 15.042px;
+        font-weight: 400;
+}
+.author {
+    color: var(--light-100, #000);
+        font-family: Poppins;
+        font-size: 21.751px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.53;
+}
+.article_main {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 47px;
+}
+.article_left_side {
+    width: 890px;
+    border-right: 1px solid #9B9B9B;
+}
+.article_left_title {
+    color: #252525;
+        font-family: Poppins;
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 1.34;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+}
+.article_text {
+     color: #252525;
+        text-align: justify;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.02;
+        margin-bottom: 56px;
+        width: 815px;
+}
+.article_list {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 100px;
+}
+.article_item {
+    color: #252525;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.02;
+}
+.article_text_sec {
+    color: #252525;
+        text-align: justify;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.02;
+        width: 815px;
+}
+.article_text_sec:not(:last-child) {
+    margin-bottom: 90px;
+}
+.article_right_side {
+    margin-left: auto;
+    margin-right: 0;
+}
+.articles_item {
+    cursor: pointer;
+    border-radius: 15px;
+    width: 264px;
+    padding-top: 21px;
+    padding-bottom: 26px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color: #fff;
+    box-shadow: 0px 3.338104248046875px 40.057254791259766px 0px rgba(197, 197, 197, 0.25);
+}
+.articles_item:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.articles_img {
+    margin-bottom: 21px;
+    width: 264px;
+    height: 232px;
+}
+
+.articles_item_title {
+    color: #252525;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.19;
+    margin-bottom: 20px;
+}
+
+.articles_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.articles_thumb {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 11px;
+}
+
+.articles_time {
+    color: #B7B4B4;
+    font-family: Poppins;
+    font-size: 13.855px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.97;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.articles_creator_top {
+    color: #8D8D8D;
+    font-family: Poppins;
+    font-size: 10.771px;
+    font-weight: 400;
+}
+
+.articles_creator {
+    color: black;
+    font-family: Poppins;
+    font-size: 14.021px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.53;
+}
+.right_title {
+    color: #252525;
+        font-family: Poppins;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.48;
+        margin-bottom: 34px;
+}
+.article_btn {
+    width: 245px;
+    height: 80px;
+    border-radius: 16.489px;
+    background-color: #6C5FBC;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & span {
+        color: #F4F4F4;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 20.295px;
+            font-weight: 600;
+            line-height: 1.25;
+            text-transform: capitalize;
+            margin-right: 27px;
+    }
+}

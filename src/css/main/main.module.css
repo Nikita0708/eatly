@@ -600,7 +600,7 @@ h3 {
   margin-bottom: 15px;
 }
 .control-left-item:hover {
-  box-shadow: 6.8484177589px 82.1810150146px 41.0905075073px 0px rgba(229, 229, 229, 0.7);
+        box-shadow: 8.42130184173584px 21.053255081176758px 100px 0px rgba(0, 0, 0, 0.10);
 }
 
 .control-img {
@@ -643,7 +643,7 @@ h3 {
   background-color: #fff;
   border-radius: 25.129px;
   border: 1.571px solid #EDF2F7;
-  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+      box-shadow: 8.42130184173584px 21.053255081176758px 100px 0px rgba(0, 0, 0, 0.10);
 }
 
 .control-top-wrap {
@@ -694,6 +694,9 @@ h3 {
   border-radius: 18px;
   border: 1.5px solid #EDF2F7;
   padding: 25px;
+  &:first-child {
+    margin-bottom: 13px;
+  }
 }
 
 .control-item-thumb {
@@ -734,6 +737,7 @@ h3 {
 
 .customer-slider {
   margin-top: 116px;
+  
 }
 .customer-slider .container {
   padding-bottom: 217px;
@@ -755,6 +759,7 @@ h3 {
   padding: 38px 43px;
   overflow: hidden;
   position: relative;
+  
 }
 
 .review-img {
@@ -817,6 +822,7 @@ h3 {
 }
 
 .sale {
+  margin-top: 60px;
   margin-bottom: 216px;
 }
 .sale .container {
