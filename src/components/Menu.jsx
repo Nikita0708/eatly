@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 
 import { Restaurant } from './Rest';
@@ -12,6 +12,8 @@ import svg from '../images/svg.svg';
 export const Menu = () => {
   const [selectedItem, setSelectedItem] = useState(null);
   const [selectedElement, setSelectedElement] = useState(null);
+  const [notSelectedElement, setNotSelectedElement] = useState(null);
+
   const [selectedType, setSelectedType] = useState(null);
   const [selectedSort, setSelectedSort] = useState(null);
 
@@ -29,6 +31,17 @@ export const Menu = () => {
     }
   };
 
+  // const handleEffect = useEffect(event => {}, []);
+
+  useEffect(() => {
+    // Set the default selected element with class 'hero-btn-type__active'
+    const defaultSelectedElement = document.getElementById('defaul_el'); // Replace 'defaultElementId' with the actual id of the default element
+    if (defaultSelectedElement) {
+      defaultSelectedElement.classList.add('hero-btn-type__active');
+      setSelectedElement(defaultSelectedElement);
+    }
+  }, []);
+
   const handleElementClick = event => {
     const clickedElement = event.currentTarget;
     if (selectedElement) {
@@ -37,6 +50,12 @@ export const Menu = () => {
     clickedElement.classList.add('hero-btn-type__active');
     setSelectedElement(clickedElement);
   };
+
+  // useEffect(() => {
+  //   setSelectedElement();
+  //   selectedElement.classList.remove('hero-btn-type__active');
+  // }, [selectedElement]);
+
   const handleSortClick = event => {
     const clickedElement = event.currentTarget;
     if (selectedSort) {
@@ -98,7 +117,11 @@ export const Menu = () => {
                   Food
                 </a>
               </div>
-              <div onClick={handleElementClick} className="hero-btn-type">
+              <div
+                onClick={handleElementClick}
+                className="hero-btn-type"
+                id="defaul_el"
+              >
                 <a
                   href="#Restaurant"
                   className="hero_link"

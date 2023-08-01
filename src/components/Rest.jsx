@@ -1,9 +1,6 @@
 import svg from '../images/svg.svg';
 import s from '../css/main/main.module.css';
 
-
-
-
 export const Restaurant = () => {
     return (
         <section className={[s["restaurants"]]}>
