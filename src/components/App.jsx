@@ -5,7 +5,7 @@ import { Pricing } from 'components/Pricing';
 import { Contact } from 'components/Contact';
 import { Article } from './Article';
 import React from 'react';
-
+import { MobHeader } from './MobHedaer';
 import {
   BrowserRouter as Router,
   Routes,
@@ -59,6 +59,7 @@ export const App = () => {
             </div>
           </div>
         </header>
+        <MobHeader />
         <Routes>
           <Route path="*" element={<Main />} />
           <Route path="/eatly/" element={<Main />} />

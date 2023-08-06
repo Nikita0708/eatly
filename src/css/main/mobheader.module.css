@@ -1,0 +1,12 @@
+.header {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 33px;
+  @media screen and (min-width: 826px) {
+    display: none;
+  }
+}
+.menu_open_btn {
+  border: 0;
+  background-color: transparent;
+}

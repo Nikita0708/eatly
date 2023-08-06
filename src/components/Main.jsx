@@ -162,6 +162,7 @@ export const Main = () => {
             <img
               src={require('../images/mobile.png')}
               alt="mobile application"
+              className={s.mobile_img}
             />
           </div>
           <div className={[s['mobile-right-wrap']]}>
@@ -187,10 +188,10 @@ export const Main = () => {
               <svg className={[s['download-svg']]} width={27.1} height={27.1}>
                 <use href={svg + '#icon-arrow-right'}></use>
               </svg>
+              <svg className={[s['mobile-right-svg']]} width={154} height={87}>
+                <use href={svg + '#icon-arrow'}></use>
+              </svg>
             </button>
-            <svg className={[s['mobile-right-svg']]} width={154} height={87}>
-              <use href={svg + '#icon-arrow'}></use>
-            </svg>
           </div>
         </div>
       </section>
