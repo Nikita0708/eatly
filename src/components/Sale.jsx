@@ -5,13 +5,13 @@ export const Sale = () => {
     <section className={[s['sale']]}>
       <div className={[s['container']]}>
         <h1 className={[s['sale-title']]}>GET 50%</h1>
-        <form action="sale-email">
+        <form action="sale-email" className={s.form}>
           <input
             type="email"
             name="sale-user-email"
             id="sale-user-email"
             className={[s['sale-input']]}
-            placeholder=" Enter Your Email Address"
+            placeholder="Email Address"
           />
           <button type="submit" className={[s['sale-submit']]}>
             subscribe

@@ -1,9 +1,10 @@
 .hero-tilt-animation {
-  padding-top: 80px;
+  padding-top: 57px;
   padding-bottom: 120px;
   padding-left: 30px;
   padding-right: 30px;
   @media screen and (min-width: 826px) {
+    padding-top: 80px;
     padding-left: 0;
     padding-right: 0;
   }

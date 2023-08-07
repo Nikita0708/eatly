@@ -1,15 +1,23 @@
-.swiper-horizontal>.swiper-scrollbar,
+.swiper-horizontal > .swiper-scrollbar,
 .swiper-scrollbar.swiper-scrollbar-horizontal {
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 0;
-    top: unset;
-    z-index: 50;
-    background: rgba(107, 95, 188, 0.3411764706);
-    height: 11px;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  top: unset;
+  z-index: 50;
+  background: rgba(107, 95, 188, 0.3411764706);
+  height: 5px;
+  max-width: 300px;
+  @media screen and (min-width: 826px) {
     width: 667px;
+    height: 11px;
+  }
 }
 
 .swiper-scrollbar-drag {
-    background-color: #6C5FBC;
+  background-color: #6c5fbc;
+  max-width: 86px;
+  @media screen and (min-width: 826px) {
+    max-width: unset;
+  }
 }
