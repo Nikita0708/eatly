@@ -35,22 +35,50 @@ export const MobHeader = () => {
           </button>
           <ul className="mob-menu-list">
             <li className="mob-menu-item">
-              <NavLink to="/eatly/Menu/" className="mob-menu-link">
+              <NavLink
+                to="/eatly"
+                className="mob-menu-link"
+                onClick={handleModal}
+              >
+                Main
+              </NavLink>
+            </li>
+            <li className="mob-menu-item">
+              <NavLink
+                to="/eatly/Menu/"
+                className="mob-menu-link"
+                onClick={handleModal}
+              >
                 Menu
               </NavLink>
             </li>
             <li className="mob-menu-item">
-              <NavLink exact to="/eatly/Blog/" className="mob-menu-link">
+              <NavLink
+                exact
+                to="/eatly/Blog/"
+                className="mob-menu-link"
+                onClick={handleModal}
+              >
                 Blog
               </NavLink>
             </li>
             <li className="mob-menu-item">
-              <NavLink exact to="/eatly/Pricing/" className="mob-menu-link">
+              <NavLink
+                exact
+                to="/eatly/Pricing/"
+                className="mob-menu-link"
+                onClick={handleModal}
+              >
                 Pricing
               </NavLink>
             </li>
             <li className="mob-menu-item">
-              <NavLink exact to="/eatly/Contact/" className="mob-menu-link">
+              <NavLink
+                exact
+                to="/eatly/Contact/"
+                className="mob-menu-link"
+                onClick={handleModal}
+              >
                 Contact
               </NavLink>
             </li>

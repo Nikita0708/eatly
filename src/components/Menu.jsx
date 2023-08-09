@@ -83,43 +83,45 @@ export const Menu = () => {
                 className={s.hero_img}
               />
             </div>
-            <form className={s.form}>
-              <button type="submit" className={s.form_btn}>
-                <svg className={s.form_svg} width={30} height={27.1}>
-                  <use href={svg + '#icon-search-menu'}></use>
-                </svg>
-              </button>
-              <input
-                type="text"
-                name="search"
-                className={s.form_input}
-                placeholder="Search"
-              />
-            </form>
-            <div className={s.hero_btn_wrap}>
-              <div className="hero-btn-type" onClick={handleElementClick}>
-                <a
-                  href="#Food"
-                  className="hero_link"
-                  onClick={() => {
-                    handleItemClick(2);
-                  }}
+            <div className={s.form_wrapper}>
+              <form className={s.form}>
+                <button type="submit" className={s.form_btn}>
+                  <svg className={s.form_svg} width={30} height={27.1}>
+                    <use href={svg + '#icon-search-menu'}></use>
+                  </svg>
+                </button>
+                <input
+                  type="text"
+                  name="search"
+                  className={s.form_input}
+                  placeholder="Search"
+                />
+              </form>
+              <div className={s.hero_btn_wrap}>
+                <div className="hero-btn-type" onClick={handleElementClick}>
+                  <a
+                    href="#Food"
+                    className="hero_link"
+                    onClick={() => {
+                      handleItemClick(2);
+                    }}
+                  >
+                    Food
+                  </a>
+                </div>
+                <div
+                  onClick={handleElementClick}
+                  className="hero-btn-type"
+                  id="defaul_el"
                 >
-                  Food
-                </a>
-              </div>
-              <div
-                onClick={handleElementClick}
-                className="hero-btn-type"
-                id="defaul_el"
-              >
-                <a
-                  href="#Restaurant"
-                  className="hero_link"
-                  onClick={() => handleItemClick(1)}
-                >
-                  Restaurant
-                </a>
+                  <a
+                    href="#Restaurant"
+                    className="hero_link"
+                    onClick={() => handleItemClick(1)}
+                  >
+                    Restaurant
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -127,25 +129,25 @@ export const Menu = () => {
             <h2 className={s.hero_right_title}>Category</h2>
             <ul className={s.right_list}>
               <li className="right_item" onClick={handleTypeClick}>
-                <svg className={s.right_svg} width={34.6} height={34.6}>
+                <svg className={s.right_svg_first} width={34.6} height={34.6}>
                   <use href={svg + '#icon-pizza'}></use>
                 </svg>
                 <span>Pizza</span>
               </li>
               <li className="right_item" onClick={handleTypeClick}>
-                <svg className={s.right_svg} width={45} height={40}>
+                <svg className={s.right_svg_sec} width={45} height={40}>
                   <use href={svg + '#icon-hotdog'}></use>
                 </svg>
                 <span>Asian</span>
               </li>
               <li className="right_item" onClick={handleTypeClick}>
-                <svg className={s.right_svg} width={34.6} height={34.6}>
+                <svg className={s.right_svg_third} width={34.6} height={34.6}>
                   <use href={svg + '#icon-doughnut'}></use>
                 </svg>
                 <span>Donat</span>
               </li>
               <li className="right_item" onClick={handleTypeClick}>
-                <svg className={s.right_svg} width={22.1} height={41.2}>
+                <svg className={s.right_svg_fourth} width={22.1} height={41.2}>
                   <use href={svg + '#icon-icecream'}></use>
                 </svg>
                 <span>Ice</span>

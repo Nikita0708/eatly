@@ -1,14 +1,27 @@
 .questions-item-title {
-    color: #323142;
-        font-family: Poppins;
-        font-size: 23.417px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 2.5;
+  color: #323142;
+  font-family: Poppins;
+  font-size: 12.301px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.5;
+  @media screen and (min-width: 826px) {
+    font-size: 23.417px;
+  }
 }
 .question-container {
+  padding-top: 15px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #adadad;
+  cursor: pointer;
+  @media screen and (min-width: 826px) {
     padding-top: 25px;
     padding-bottom: 16px;
-    border-bottom: 1px solid #ADADAD;
-    cursor: pointer;
+  }
+}
+.questions-answer {
+  font-size: 9px;
+  @media screen and (min-width: 826px) {
+    font-size: unset;
+  }
 }

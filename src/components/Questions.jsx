@@ -14,12 +14,14 @@ export const Questions = () => {
   return (
     <section className={s.questions}>
       <div className={s.container}>
-        <svg className={[s['questions-top-svg']]} width={41} height={38.8}>
-          <use href={svg + '#icon-hero-bottom'}></use>
-        </svg>
-        <h1 className={s.questions_title}>
-          Frequently Asked <span>Questions</span>
-        </h1>
+        <div className={s.quest_top_wrap}>
+          <svg className={[s['questions-top-svg']]} width={41} height={38.8}>
+            <use href={svg + '#icon-hero-bottom'}></use>
+          </svg>
+          <h1 className={s.questions_title}>
+            Frequently Asked <span>Questions</span>
+          </h1>
+        </div>
         <ul className={[s['questions-list']]}>
           <li className="question-container" onClick={showAnswer}>
             <div className={s.question_wrap}>

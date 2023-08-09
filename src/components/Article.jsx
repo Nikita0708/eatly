@@ -5,8 +5,8 @@ import svg from '../images/svg.svg';
 export const Article = () => {
   return (
     <section className={s.article}>
-      <div className="container">
-        <h1 className={s.article_title}>How To Order Food On eatly ?</h1>
+      <div className={s.container}>
+        <h1 className={s.article_title}>How To Order Food On eatly?</h1>
         <div className={s.article_wrap}>
           <img
             src={require('../images/creator.jpg')}
@@ -46,6 +46,11 @@ export const Article = () => {
                 Lorem Ipsum passages, and more recently
               </li>
             </ul>
+            <img
+              src={require('../images/article-mob.jpg')}
+              alt=""
+              className={s.article_mob_img}
+            />
             <h2 className={s.article_left_title}>Select your items</h2>
             <p className={s.article_text_sec}>
               Contrary to popular belief, Lorem Ipsum is not simply random text.

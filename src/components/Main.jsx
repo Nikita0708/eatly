@@ -107,7 +107,7 @@ export const Main = () => {
             <img
               src={require('../images/hero-img.png')}
               alt=""
-              className={[s['hero-img'], s['preserve']].join(' ')}
+              className={s['hero-img']}
             />
             <img
               src={require('../images/Graph.png')}
@@ -135,7 +135,7 @@ export const Main = () => {
             <li className={[s['info-item']]}>
               <span className={[s['info-item-span']]}>10K+</span>
               <p className={[s['info-item-text']]}>
-                Satisfied Costumers All Great Over The World{' '}
+                Satisfied Costumers All Great Over The World
               </p>
             </li>
             <li className={[s['info-item']]}>

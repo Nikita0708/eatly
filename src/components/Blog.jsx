@@ -11,12 +11,12 @@ export const Blog = () => {
     <>
       <Sale />
       <section className={s.articles}>
-        <div className="container">
+        <div className={s.container}>
           <h1 className={s.articles_title}>
             Latest <span>Articles</span>
           </h1>
           <ul className={s.articles_list}>
-            <NavLink to="/eatly/Article">
+            <NavLink to="/eatly/Article" className={s.articles_link}>
               <li className={s.articles_item}>
                 <img
                   src={require('../images/blog1.jpg')}
@@ -38,7 +38,7 @@ export const Blog = () => {
                 </div>
               </li>
             </NavLink>
-            <NavLink to="/eatly/Article">
+            <NavLink to="/eatly/Article" className={s.articles_link}>
               <li className={s.articles_item}>
                 <img
                   src={require('../images/blog2.jpg')}
@@ -62,7 +62,7 @@ export const Blog = () => {
                 </div>
               </li>
             </NavLink>
-            <NavLink to="/eatly/Article">
+            <NavLink to="/eatly/Article" className={s.articles_link}>
               <li className={s.articles_item}>
                 <img
                   src={require('../images/blog3.jpg')}
@@ -84,7 +84,7 @@ export const Blog = () => {
                 </div>
               </li>
             </NavLink>
-            <NavLink to="/eatly/Article">
+            <NavLink to="/eatly/Article" className={s.articles_link}>
               <li className={s.articles_item}>
                 <img
                   src={require('../images/blog4.jpg')}
@@ -108,7 +108,7 @@ export const Blog = () => {
                 </div>
               </li>
             </NavLink>
-            <NavLink to="/eatly/Article">
+            <NavLink to="/eatly/Article" className={s.articles_link}>
               <li className={s.articles_item}>
                 <img
                   src={require('../images/blog5.jpg')}
@@ -132,7 +132,7 @@ export const Blog = () => {
                 </div>
               </li>
             </NavLink>
-            <NavLink to="/eatly/Article">
+            <NavLink to="/eatly/Article" className={s.articles_link}>
               <li className={s.articles_item}>
                 <img
                   src={require('../images/blog6.jpg')}
