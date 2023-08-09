@@ -37,9 +37,9 @@
 
 .hero-btn-type__active {
   background-color: var(--purple-color);
-  & a {
-    color: #fff;
-  }
+}
+.hero-btn-type__active a {
+  color: #fff;
 }
 
 .right_item {
