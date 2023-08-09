@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eatly/static/css/main.b2f5d676.css",
-    "main.js": "/eatly/static/js/main.1006acfd.js",
+    "main.css": "/eatly/static/css/main.bcc49a5f.css",
+    "main.js": "/eatly/static/js/main.274c20da.js",
     "static/media/hero-img.png": "/eatly/static/media/hero-img.354d2f31c80f607527f4.png",
     "static/media/pricing.png": "/eatly/static/media/pricing.0ab0f1eca71b650a0437.png",
     "static/media/mobile.png": "/eatly/static/media/mobile.a025d4c85929bd6e1da2.png",
@@ -14,6 +14,7 @@
     "static/media/dish3.png": "/eatly/static/media/dish3.19add81b22a69916e9e5.png",
     "static/media/blog6.jpg": "/eatly/static/media/blog6.00cb3f09a2206cd2109c.jpg",
     "static/media/blog5.jpg": "/eatly/static/media/blog5.15257b3a0a9978c8dee8.jpg",
+    "static/media/article-mob.jpg": "/eatly/static/media/article-mob.cc176926b4805c758911.jpg",
     "static/media/blog2.jpg": "/eatly/static/media/blog2.130e66bb2369db3090ae.jpg",
     "static/media/blog4.jpg": "/eatly/static/media/blog4.533fe6393a5bc09d1859.jpg",
     "static/media/blog3.jpg": "/eatly/static/media/blog3.b2cf39f2650f8b154acd.jpg",
@@ -23,11 +24,11 @@
     "static/media/info-bg.jpg": "/eatly/static/media/info-bg.fc90b647ce6a615dd624.jpg",
     "static/media/bg-mob.jpg": "/eatly/static/media/bg-mob.f5d0855bb93642f09883.jpg",
     "index.html": "/eatly/index.html",
-    "main.b2f5d676.css.map": "/eatly/static/css/main.b2f5d676.css.map",
-    "main.1006acfd.js.map": "/eatly/static/js/main.1006acfd.js.map"
+    "main.bcc49a5f.css.map": "/eatly/static/css/main.bcc49a5f.css.map",
+    "main.274c20da.js.map": "/eatly/static/js/main.274c20da.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2f5d676.css",
-    "static/js/main.1006acfd.js"
+    "static/css/main.bcc49a5f.css",
+    "static/js/main.274c20da.js"
   ]
 }
