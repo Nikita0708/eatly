@@ -277,7 +277,7 @@ h3 {
 }
 
 .hero-img {
-  position: fixed;
+  position: absolute;
   left: -12px;
   bottom: -13px;
   z-index: 5;
