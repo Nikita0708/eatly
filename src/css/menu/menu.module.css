@@ -367,12 +367,13 @@
   padding-right: 30px;
   padding-top: 92px;
   padding-bottom: 95px;
-  justify-content: center;
-  display: flex;
+
   @media screen and (min-width: 826px) {
     padding-bottom: 173px;
     justify-content: center;
     padding-top: 196px;
+    justify-content: center;
+    display: flex;
   }
 }
 .questions > .container {
