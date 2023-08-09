@@ -69,26 +69,26 @@
   font-weight: 800;
   line-height: normal;
   text-transform: uppercase;
-  & span {
-    color: #7c6fcd;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    position: absolute;
-    top: 40px;
-    left: 23px;
-    @media screen and (min-width: 826px) {
-      font-size: 87.419px;
-      top: 91px;
-      left: 61px;
-    }
-  }
   @media screen and (min-width: 826px) {
     font-size: 74.996px;
     width: 325.846px;
+  }
+}
+.hero_title span {
+  color: #7c6fcd;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  left: 23px;
+  @media screen and (min-width: 826px) {
+    font-size: 87.419px;
+    top: 91px;
+    left: 61px;
   }
 }
 .hero_img {
@@ -367,24 +367,28 @@
   padding-right: 30px;
   padding-top: 92px;
   padding-bottom: 95px;
-  & .container {
-    padding-left: 0;
-    padding-right: 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  justify-content: center;
+  display: flex;
   @media screen and (min-width: 826px) {
     padding-bottom: 173px;
+    justify-content: center;
     padding-top: 196px;
   }
+}
+.questions > .container {
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .quest_top_wrap {
   position: relative;
   max-width: 215px;
   @media screen and (min-width: 826px) {
     position: unset;
+    max-width: unset;
   }
 }
 .questions-top-svg {

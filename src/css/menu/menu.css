@@ -5,18 +5,6 @@
   align-items: center;
   background-color: transparent;
   max-width: 100%;
-
-  & a {
-    color: var(--purple-color);
-    text-align: center;
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: normal;
-    @media screen and (min-width: 826px) {
-      font-size: 19.463px;
-    }
-  }
   @media screen and (min-width: 826px) {
     flex: unset;
     max-width: unset;
@@ -31,12 +19,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--purple-color);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
   @media screen and (min-width: 826px) {
     max-width: unset;
     flex-grow: unset;
     min-width: unset;
     width: 380px;
     height: 74px;
+    font-size: 19.463px;
   }
 }
 
@@ -53,38 +48,38 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  width: 55.5px;
-  height: 80.8px;
+  width: 52.5px;
+  height: 77.8px;
   background-color: #ffde8a;
   border-radius: 12px;
   transition: 0.2s;
-  outline: 3px solid transparent;
-  & span {
-    color: #d69900;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 9.864px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    @media screen and (min-width: 826px) {
-      font-size: 11.768px;
-    }
-  }
+  border: 3px solid transparent;
   @media screen and (min-width: 826px) {
     width: 66.2px;
     height: 96.4px;
     max-width: unset;
   }
 }
+.right_item span {
+  color: #d69900;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 9.864px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  @media screen and (min-width: 826px) {
+    font-size: 11.768px;
+  }
+}
 .right_item:hover {
-  outline: 3px solid #ebbe4e;
+  border: 3px solid #ebbe4e;
   box-shadow: 5.71212100982666px 9.520201683044434px 28.560604095458984px
     0.9520201683044434px rgba(108, 95, 188, 0.12);
 }
 
 .right_item__active {
-  outline: 3px solid #ebbe4e;
+  border: 3px solid #ebbe4e;
   box-shadow: 5.71212100982666px 9.520201683044434px 28.560604095458984px
     0.9520201683044434px rgba(108, 95, 188, 0.12);
 }
