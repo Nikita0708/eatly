@@ -1146,15 +1146,14 @@ h3 {
   border-radius: 11px;
   border: 1.5px solid #edf2f7;
   padding: 15px;
-  &:first-child {
-    margin-bottom: 13px;
-  }
   @media screen and (min-width: 826px) {
     padding: 25px;
     border-radius: 18px;
   }
 }
-
+.control-right-item:first-child {
+  margin-bottom: 13px;
+}
 .control-item-thumb {
   display: flex;
   align-items: center;
