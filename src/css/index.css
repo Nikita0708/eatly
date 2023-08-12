@@ -65,6 +65,19 @@ h3 {
   opacity: 0;
   pointer-events: none;
 }
+.mob_features {
+  display: block;
+  height: 5px;
+}
+.features_list {
+  margin-top: 24px;
+}
+.features_list__disable {
+  display: none;
+}
+.mob_features__active {
+  transform: rotateX(180deg);
+}
 .container {
   width: 100%;
   /* padding-left: 30px;

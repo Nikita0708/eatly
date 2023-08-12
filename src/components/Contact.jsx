@@ -7,10 +7,15 @@ export const Contact = () => {
     <section className={s.contact}>
       <div className={s.container}>
         <div className={s.contact_left_side}>
-          <h1 className={s.contact_left_title}>Just Contact</h1>
-          <svg className={s.left_svg} width={336} height={128}>
-            <use href={svg + '#icon-contact'}></use>
-          </svg>
+          <div className={s.contact_title_wrap}>
+            <h1 className={s.contact_left_title}>Just Contact</h1>
+            <svg className={s.mob_svg} width={80} height={85}>
+              <use href={svg + '#icon-arrow-mob-cont'}></use>
+            </svg>
+            <svg className={s.left_svg} width={336} height={128}>
+              <use href={svg + '#icon-contact'}></use>
+            </svg>
+          </div>
           <div className={[s['mobile-left-wrap']]}>
             <svg className={[s['mobile-left-svg']]} width={52.5} height={61.7}>
               <use href={svg + '#icon-Illustration-01-1'}></use>
