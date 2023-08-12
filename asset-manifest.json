@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/eatly/static/css/main.72be4320.css",
-    "main.js": "/eatly/static/js/main.274c20da.js",
+    "main.css": "/eatly/static/css/main.c50c1820.css",
+    "main.js": "/eatly/static/js/main.12e47b3a.js",
     "static/media/hero-img.png": "/eatly/static/media/hero-img.354d2f31c80f607527f4.png",
     "static/media/pricing.png": "/eatly/static/media/pricing.0ab0f1eca71b650a0437.png",
     "static/media/mobile.png": "/eatly/static/media/mobile.a025d4c85929bd6e1da2.png",
     "static/media/article.jpg": "/eatly/static/media/article.75e432e89880d419e37f.jpg",
     "static/media/chicken-rest.jpg": "/eatly/static/media/chicken-rest.6193995b01ae37cc0f9c.jpg",
     "static/media/burger-rest.jpg": "/eatly/static/media/burger-rest.6fc342bbaa67b8cc4cf6.jpg",
-    "static/media/svg.svg": "/eatly/static/media/svg.18805a8ac133f2d0ccf032fa92811ff7.svg",
+    "static/media/svg.svg": "/eatly/static/media/svg.add7a8a0798845965c5690987f9c1da8.svg",
     "static/media/dish2.png": "/eatly/static/media/dish2.7b523965f6f6428de272.png",
     "static/media/Graph.png": "/eatly/static/media/Graph.9bf6017e70eabf5c5bf6.png",
     "static/media/dish3.png": "/eatly/static/media/dish3.19add81b22a69916e9e5.png",
@@ -24,11 +24,11 @@
     "static/media/info-bg.jpg": "/eatly/static/media/info-bg.fc90b647ce6a615dd624.jpg",
     "static/media/bg-mob.jpg": "/eatly/static/media/bg-mob.f5d0855bb93642f09883.jpg",
     "index.html": "/eatly/index.html",
-    "main.72be4320.css.map": "/eatly/static/css/main.72be4320.css.map",
-    "main.274c20da.js.map": "/eatly/static/js/main.274c20da.js.map"
+    "main.c50c1820.css.map": "/eatly/static/css/main.c50c1820.css.map",
+    "main.12e47b3a.js.map": "/eatly/static/js/main.12e47b3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.72be4320.css",
-    "static/js/main.274c20da.js"
+    "static/css/main.c50c1820.css",
+    "static/js/main.12e47b3a.js"
   ]
 }
