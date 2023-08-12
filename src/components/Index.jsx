@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { App } from './App';
+import { Main } from './Main';
 import { Menu } from 'components/Menu';
 import { Blog } from 'components/Blog';
 import { Pricing } from 'components/Pricing';
@@ -14,8 +14,8 @@ export const Index = () => {
     <>
       <Router>
         <Routes>
-          <Route path="*" element={<App />} />
-          <Route path="/eatly/" element={<App />} />
+          <Route path="*" element={<Main />} />
+          <Route path="/eatly/" element={<Main />} />
           <Route path="/eatly/Menu" element={<Menu />} />
           <Route path="/eatly/Contact" element={<Contact />} />
           <Route path="/eatly/Blog" element={<Blog />} />

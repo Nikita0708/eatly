@@ -3,7 +3,8 @@ import { Food } from './Food';
 import { Control } from './Control';
 import { Customer } from './Customer';
 import { Sale } from './Sale';
-
+import { Header } from './Header';
+import { Footer } from './Footer';
 import React from 'react';
 import svg from '../images/svg.svg';
 
@@ -16,6 +17,7 @@ import '../css/main/slider.css';
 export const Main = () => {
   return (
     <React.Fragment>
+      <Header />
       <section className="hero-tilt-animation">
         <div className="hero-tilt-container container">
           <div className={[s['hero-left-wrap'], s['preserve']].join(' ')}>
@@ -200,6 +202,7 @@ export const Main = () => {
       <Control />
       <Customer />
       <Sale />
+      <Footer />
     </React.Fragment>
   );
 };
