@@ -1,7 +1,8 @@
 import s from '../css/blog/blog.module.css';
 import { Sale } from './Sale';
 import { Questions } from './Questions';
-
+import { Header } from './Header';
+import { Footer } from './Footer';
 import '../css/index.css';
 
 import { NavLink } from 'react-router-dom';
@@ -9,6 +10,7 @@ import { NavLink } from 'react-router-dom';
 export const Blog = () => {
   return (
     <>
+      <Header />
       <Sale />
       <section className={s.articles}>
         <div className={s.container}>
@@ -158,6 +160,7 @@ export const Blog = () => {
         </div>
       </section>
       <Questions />
+      <Footer />
     </>
   );
 };

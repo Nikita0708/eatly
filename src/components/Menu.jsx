@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-
+import { Header } from './Header';
+import { Footer } from './Footer';
 import { Restaurant } from './Rest';
 import { Food } from './Food';
 import { Questions } from './Questions';
@@ -67,6 +68,7 @@ export const Menu = () => {
 
   return (
     <React.Fragment>
+      <Header />
       <section className={s.hero}>
         <div className={s.container}>
           <div className={s.hero_left_wrap}>
@@ -189,6 +191,7 @@ export const Menu = () => {
       </section>
       {renderContent()}
       <Questions />
+      <Footer />
     </React.Fragment>
   );
 };

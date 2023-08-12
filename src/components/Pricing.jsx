@@ -1,6 +1,8 @@
 import s from '../css/pricing/pricing.module.css';
 import svg from '../images/svg.svg';
 import '../css/index.css';
+import { Header } from './Header';
+import { Footer } from './Footer';
 
 import { Control } from './Control';
 import { Customer } from './Customer';
@@ -20,6 +22,7 @@ export const Pricing = () => {
   };
   return (
     <>
+      <Header />
       <section className={s.hero}>
         <div className={s.container}>
           <div className={s.title_wrap}>
@@ -311,6 +314,7 @@ export const Pricing = () => {
       </section>
       <Control />
       <Customer />
+      <Footer />
     </>
   );
 };
