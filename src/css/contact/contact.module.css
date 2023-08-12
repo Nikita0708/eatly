@@ -127,33 +127,34 @@
   color: var(--purple-color);
 }
 .form_input {
-  border-radius: 10.892px;
-  border: 1.2px solid #6c5fbc;
   background-color: #f9f9f9;
-  max-width: 384px;
-  min-width: 150px;
-  flex-grow: 1;
-  height: 57px;
+
   outline: 0;
-  padding-left: 16px;
-  margin-bottom: 12px;
+
+  padding-left: 25px;
+  height: 79px;
+  border-radius: 16.892px;
+  border: 2px solid #6c5fbc;
+  font-size: 16.892px;
+  margin-bottom: 26px;
+
   color: #b6b6b6;
   font-family: Inter;
-  font-size: 10.892px;
+
   font-style: normal;
   font-weight: 600;
   line-height: 1.5;
   text-transform: capitalize;
-  @media screen and (min-width: 826px) {
-    max-width: unset;
-    min-width: unset;
-    flex-grow: unset;
-    padding-left: 25px;
-    height: 79px;
-    border-radius: 16.892px;
-    border: 2px solid #6c5fbc;
-    font-size: 16.892px;
-    margin-bottom: 26px;
+  @media screen and (max-width: 826px) {
+    padding-left: 16px;
+    margin-bottom: 12px;
+    font-size: 10.892px;
+    max-width: 384px;
+    min-width: 150px;
+    flex-grow: 1;
+    height: 57px;
+    border-radius: 10.892px;
+    border: 1.2px solid #6c5fbc;
   }
 }
 .form_input_email {
