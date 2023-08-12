@@ -1,20 +1,23 @@
 .contact {
-  padding-top: 210px;
-  padding-bottom: 212px;
+  padding-top: 51px;
+  padding-bottom: 100px;
   padding-left: 30px;
   padding-right: 30px;
+  @media screen and (min-width: 826px) {
+    padding-bottom: 212px;
+    padding-top: 210px;
+  }
 }
 
 .container {
   padding-left: 0px;
   padding-right: 0px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
   @media screen and (min-width: 826px) {
     height: 818px;
     width: 1270px;
     position: relative;
+    display: flex;
     flex-direction: unset;
   }
 }
@@ -95,7 +98,7 @@
 }
 .form {
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -124,19 +127,19 @@
   color: var(--purple-color);
 }
 .form_input {
-  border-radius: 16.892px;
-  border: 2px solid #6c5fbc;
+  border-radius: 10.892px;
+  border: 1.2px solid #6c5fbc;
   background-color: #f9f9f9;
-  max-width: 375px;
+  max-width: 384px;
   min-width: 150px;
   flex-grow: 1;
-  height: 79px;
+  height: 57px;
   outline: 0;
-  padding-left: 25px;
-  margin-bottom: 26px;
+  padding-left: 16px;
+  margin-bottom: 12px;
   color: #b6b6b6;
   font-family: Inter;
-  font-size: 16.892px;
+  font-size: 10.892px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.5;
@@ -145,22 +148,28 @@
     max-width: unset;
     min-width: unset;
     flex-grow: unset;
+    padding-left: 25px;
+    height: 79px;
+    border-radius: 16.892px;
+    border: 2px solid #6c5fbc;
+    font-size: 16.892px;
+    margin-bottom: 26px;
   }
 }
 .form_input_email {
-  border-radius: 16.892px;
-  padding-left: 25px;
-  max-width: 375px;
+  border-radius: 10.892px;
+  padding-left: 16px;
+  max-width: 384px;
   min-width: 150px;
   flex-grow: 1;
-  border: 2px solid #6c5fbc;
+  border: 1.2px solid #6c5fbc;
   background-color: #f9f9f9;
-  height: 79px;
+  height: 57px;
   outline: 0;
   margin-bottom: 52px;
   color: #b6b6b6;
   font-family: Inter;
-  font-size: 16.892px;
+  font-size: 10.892px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.5;
@@ -168,6 +177,12 @@
     max-width: unset;
     min-width: unset;
     flex-grow: unset;
+    padding-left: 25px;
+    height: 79px;
+    font-size: 16.892px;
+    border-radius: 16.892px;
+    border: 2px solid #6c5fbc;
+    margin-bottom: 26px;
   }
 }
 .form_textarea {
@@ -177,21 +192,27 @@
   min-width: 150px;
   flex-grow: 1;
   font-family: Inter;
-  font-size: 16.892px;
+  font-size: 10.892px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.5;
-  padding-left: 25px;
-  padding-top: 23px;
-  height: 322px;
+  padding-left: 16px;
+  padding-top: 14px;
+  height: 210px;
   outline: 0;
-  border: 2px solid #6c5fbc;
+  border: 1.2px solid #6c5fbc;
   border-radius: 16.892px;
-  margin-bottom: 43px;
+  margin-bottom: 22px;
   @media screen and (min-width: 826px) {
     max-width: unset;
     min-width: unset;
+    padding-left: 25px;
+    font-size: 16.892px;
+    margin-bottom: 43px;
     flex-grow: unset;
+    padding-top: 23px;
+    height: 322px;
+    border: 2px solid #6c5fbc;
     width: 474px;
   }
 }
@@ -199,26 +220,32 @@
   max-width: 400px;
   min-width: 100px;
   flex-grow: 1;
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
-  height: 76px;
+  align-items: center;
+  height: 55px;
   border-radius: 15.876px;
   background-color: #6c5fbc;
   border: 0;
   color: #f9f9f9;
   font-family: Poppins;
-  font-size: 20.812px;
+  font-size: 13.082px;
   font-weight: 500;
   letter-spacing: 0.624px;
   text-transform: capitalize;
   @media screen and (min-width: 826px) {
     max-width: unset;
+    font-size: 20.812px;
+    height: 76px;
     width: 493px;
   }
 }
 .form_svg {
+  display: none;
   position: absolute;
   bottom: -80px;
   left: -90px;
+  @media screen and (min-width: 826px) {
+    display: block;
+  }
 }
