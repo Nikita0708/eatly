@@ -372,6 +372,8 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 0;
+  padding-right: 0;
   @media screen and (min-width: 826px) {
     padding-left: 66px;
     padding-right: 66px;
