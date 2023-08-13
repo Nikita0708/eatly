@@ -73,20 +73,19 @@
 }
 .input_wrap svg {
   position: absolute;
+  fill: #c2c3cb;
 }
 .svg_name {
   top: 26px;
   left: 24px;
-  fill: #c2c3cb;
+  transition: 0.2s;
 }
 .svg_email {
   top: 29px;
-  fill: #c2c3cb;
   left: 23px;
 }
 .svg_pass {
   top: 25px;
-  fill: #c2c3cb;
   left: 23px;
 }
 .input {
@@ -110,6 +109,10 @@
 .input:hover,
 .input:focus {
   border: 2px solid var(--purple-color);
+  color: #6c5fbc;
+}
+.input:hover .input_wrap svg {
+  fill: #6c5fbc;
 }
 .btn_submit {
   height: 74px;
@@ -146,6 +149,13 @@
   bottom: 40px;
   justify-content: space-around;
 }
+
+.hero-right-wrap {
+  position: relative;
+  width: 360px;
+  margin: 0 auto;
+  margin-bottom: 78px;
+}
 .sign_right {
   width: 40%;
   background-color: var(--purple-color);
@@ -158,12 +168,7 @@
   background-size: contain;
   /* padding-top: 303px; */
 }
-.hero-right-wrap {
-  position: relative;
-  width: 360px;
-  margin: 0 auto;
-  margin-bottom: 78px;
-}
+
 .hero-img {
   width: 359px;
   height: 359px;
@@ -225,4 +230,16 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.25;
+}
+/* Anim */
+.level-1 {
+  transform: translateZ(50px);
+}
+
+.preserve {
+  transform-style: preserve-3d;
+}
+
+.level-2 {
+  transform: translateZ(80px);
 }
