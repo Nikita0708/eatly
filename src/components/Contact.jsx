@@ -5,6 +5,9 @@ import { Header } from './Header';
 import { Footer } from './Footer';
 
 export const Contact = () => {
+  const disableZoom = event => {
+    event.preventDefault();
+  };
   return (
     <>
       <Header />
@@ -44,17 +47,20 @@ export const Contact = () => {
               name="user-name"
               className={s.form_input}
               placeholder="FULL NAME"
+              onClick={disableZoom}
             />
             <input
               type="email"
               name="user-email"
               className={s.form_input_email}
               placeholder="ENTER YOUR EMAIL"
+              onClick={disableZoom}
             />
             <textarea
               name="user-question"
               className={s.form_textarea}
               placeholder="ENTER THE PROBLEM OR QUERY"
+              onClick={disableZoom}
             />
             <button type="submit" className={s.form_btn}>
               Send Now
