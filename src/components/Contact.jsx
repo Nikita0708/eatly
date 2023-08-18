@@ -1,6 +1,7 @@
 import s from '../css/contact/contact.module.css';
 import svg from '../images/svg.svg';
 import '../css/index.css';
+import '../css/contact/contact.css';
 import { Header } from './Header';
 import { Footer } from './Footer';
 
@@ -42,13 +43,13 @@ export const Contact = () => {
             <input
               type="text"
               name="user-name"
-              className={s.form_input}
+              className="form_input"
               placeholder="FULL NAME"
             />
             <input
               type="email"
               name="user-email"
-              className={s.form_input_email}
+              className="form_input_email"
               placeholder="ENTER YOUR EMAIL"
             />
             <textarea
