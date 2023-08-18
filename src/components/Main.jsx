@@ -133,7 +133,7 @@ export const Main = () => {
       <section className={s.info}>
         <div className={s.container}>
           <h1 className="visually-hidden">Information</h1>
-          <ul className={[s['info-list'], s['info-same']].join(' ')}>
+          <ul className={[s['info-list']]}>
             <li className={[s['info-item'], s['info-same']].join(' ')}>
               <span className={[s['info-item-span']]}>10K+</span>
               <p className={[s['info-item-text']]}>
