@@ -358,20 +358,23 @@ h3 {
 }
 .info-list {
   display: flex;
+  @media screen and (min-width: 250px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   @media screen and (max-width: 826px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 }
-.info-same {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .info-item {
   padding-left: 0;
   padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   @media screen and (min-width: 826px) {
     padding-left: 66px;
     padding-right: 66px;
