@@ -133,20 +133,20 @@ export const Main = () => {
       <section className={s.info}>
         <div className={s.container}>
           <h1 className="visually-hidden">Information</h1>
-          <ul className={[s['info-list']]}>
-            <li className={[s['info-item']]}>
+          <ul className={[s['info-list'], s['info-same']].join(' ')}>
+            <li className={[s['info-item'], s['info-same']].join(' ')}>
               <span className={[s['info-item-span']]}>10K+</span>
               <p className={[s['info-item-text']]}>
                 Satisfied Costumers All Great Over The World
               </p>
             </li>
-            <li className={[s['info-item']]}>
+            <li className={[s['info-item'], s['info-same']].join(' ')}>
               <span className={[s['info-item-span']]}>4M</span>
               <p className={[s['info-item-text']]}>
                 Healthy Dishes Sold Including Milk Shakes Smooth
               </p>
             </li>
-            <li className={[s['info-item']]}>
+            <li className={[s['info-item'], s['info-same']].join(' ')}>
               <span className={[s['info-item-span']]}>99.99%</span>
               <p className={[s['info-item-text']]}>
                 Reliable Customer Support We Provide Great Experiences
