@@ -8,7 +8,7 @@ export const LogIn = () => {
   return (
     <>
       <div className={s.sign_container}>
-        <NavLink exact to="/eatly/" className={s.login_logo}>
+        <NavLink exact to="/eatly/" className={s.sign_logo}>
           <svg className={s.sign_svg} width={53} height={49}>
             <use href={svg + '#icon-logo-sign'}></use>
           </svg>

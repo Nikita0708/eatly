@@ -8,7 +8,7 @@ export const ForgetPassword = () => {
   return (
     <>
       <div className={s.sign_container}>
-        <NavLink to="/eatly/" className={s.pass_logo}>
+        <NavLink to="/eatly/" className={s.sign_logo}>
           <svg className={s.sign_svg} width={53} height={49}>
             <use href={svg + '#icon-logo-sign'}></use>
           </svg>
