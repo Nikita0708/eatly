@@ -126,7 +126,7 @@
 .form_title span {
   color: var(--purple-color);
 }
-.form_input_name {
+.form_input {
   border-radius: 10.892px;
   padding-left: 16px;
   max-width: 384px;

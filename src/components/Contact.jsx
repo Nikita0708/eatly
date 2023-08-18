@@ -42,7 +42,7 @@ export const Contact = () => {
             <input
               type="text"
               name="user-name"
-              className={s.form_input_name}
+              className={s.form_input}
               placeholder="FULL NAME"
             />
             <input
