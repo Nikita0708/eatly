@@ -43,13 +43,13 @@ export const Contact = () => {
             <input
               type="text"
               name="user-name"
-              className="form_input"
+              className="form_input form_input_name"
               placeholder="FULL NAME"
             />
             <input
               type="email"
               name="user-email"
-              className="form_input_email"
+              className="form_input form_input_email"
               placeholder="ENTER YOUR EMAIL"
             />
             <textarea
