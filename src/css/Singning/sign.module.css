@@ -6,8 +6,9 @@
 }
 .sign_logo {
   position: absolute;
-  top: 32px;
-  left: 48px;
+
+  top: 17px;
+  left: 18px;
   background-color: transparent;
   border: 0;
   display: flex;
@@ -15,57 +16,61 @@
   color: var(--purple-color);
   font-weight: 500;
   font-size: 20px;
-  @media screen and (max-width: 826px) {
-    top: 17px;
-    left: 18px;
+  @media screen and (min-width: 826px) {
+    top: 32px;
+    left: 48px;
   }
 }
 .sign_svg {
   margin-right: 10px;
-  @media screen and (max-width: 826px) {
-    width: 35px;
-    height: 32px;
+  width: 35px;
+  height: 32px;
+  @media screen and (min-width: 826px) {
+    width: unset;
+    height: unset;
   }
 }
 .sign_left {
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
-  @media screen and (max-width: 826px) {
-    width: 100%;
+  @media screen and (min-width: 826px) {
+    width: 60%;
   }
 }
 .title_left {
   color: #323142;
   font-family: Poppins;
-  font-size: 35.25px;
+  font-size: 28px;
   font-weight: 600;
+  margin-bottom: 38px;
   line-height: 1.25;
   letter-spacing: -1.41px;
-  margin-bottom: 48px;
-  @media screen and (max-width: 826px) {
-    margin-bottom: 38px;
-    font-size: 28px;
+  @media screen and (min-width: 826px) {
+    font-size: 35.25px;
+    margin-bottom: 48px;
   }
 }
 .btn {
-  width: 183px;
-  height: 63px;
+  width: 148px;
+  height: 51px;
   border: 2px solid transparent;
   background-color: #cfcfcf46;
   border-radius: 13.341px;
   transition: 0.2s;
-  @media screen and (max-width: 826px) {
-    max-width: 148px;
-    height: 51px;
+  @media screen and (min-width: 826px) {
+    max-width: unset;
+    width: 183px;
+    height: 63px;
   }
 }
 .btn_svg {
-  @media screen and (max-width: 826px) {
-    width: 21px;
+  width: 21px;
+  @media screen and (min-width: 826px) {
+    width: unset;
   }
 }
 .btn:hover {
@@ -75,40 +80,41 @@
   margin-right: 21px;
 }
 .btn_wrap {
-  margin-bottom: 33px;
+  margin-bottom: 27px;
   display: flex;
-  @media screen and (max-width: 826px) {
-    margin-bottom: 27px;
+  @media screen and (min-width: 826px) {
+    margin-bottom: 33px;
   }
 }
 .mid_span {
   color: rgba(0, 90, 100, 0.35);
   font-family: Poppins;
-  font-size: 20.011px;
+  font-size: 16px;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.6px;
   text-transform: uppercase;
-  margin-bottom: 35px;
-  @media screen and (max-width: 826px) {
-    margin-bottom: 28px;
-    font-size: 16px;
+  margin-bottom: 28px;
+  @media screen and (min-width: 826px) {
+    margin-bottom: 35px;
+    font-size: 20.011px;
   }
 }
 .form {
   display: flex;
   flex-direction: column;
-  @media screen and (max-width: 826px) {
-    max-width: 309px;
-    margin: 0 auto;
+  max-width: 309px;
+  margin: 0 auto;
+  @media screen and (min-width: 826px) {
+    max-width: unset;
+    margin: unset;
   }
 }
 .input_wrap {
   position: relative;
-  margin-bottom: 24px;
-  @media screen and (max-width: 826px) {
-    margin-bottom: 19px;
-    /* width: 100%; */
+  margin-bottom: 19px;
+  @media screen and (min-width: 826px) {
+    margin-bottom: 24px;
   }
 }
 .input_wrap svg {
@@ -119,30 +125,38 @@
   top: 26px;
   left: 24px;
   transition: 0.2s;
-  @media screen and (max-width: 826px) {
-    width: 16px;
-    height: 18px;
+  width: 16px;
+  height: 18px;
+  @media screen and (min-width: 826px) {
+    width: unset;
+    height: unset;
   }
 }
 .svg_email {
   top: 29px;
   left: 23px;
-  @media screen and (max-width: 826px) {
-    width: 18px;
-    height: 14px;
+  width: 18px;
+  height: 14px;
+  @media screen and (min-width: 826px) {
+    width: unset;
+    height: unset;
   }
 }
 .svg_pass {
   top: 25px;
   left: 23px;
-  @media screen and (max-width: 826px) {
-    width: 15px;
-    height: 19px;
+  width: 15px;
+  height: 19px;
+  @media screen and (min-width: 826px) {
+    width: unset;
+    height: unset;
   }
 }
 .input {
-  width: 303px;
-  height: 74px;
+  max-width: 309px;
+  min-width: 150px;
+  flex-grow: 1px;
+  height: 60px;
   padding-left: 79px;
   border: 2px solid transparent;
   background-color: #cfcfcf46;
@@ -157,13 +171,14 @@
   letter-spacing: 1.167px;
   text-transform: uppercase;
   transition: 0.2s;
-  @media screen and (max-width: 826px) {
-    width: unset;
-    height: 60px;
+  @media screen and (min-width: 826px) {
+    width: 303px;
+    height: 74px;
+    padding-left: 79px;
 
-    max-width: 309px;
-    min-width: 150px;
-    flex-grow: 1px;
+    max-width: unset;
+    min-width: unset;
+    flex-grow: unset;
   }
 }
 .input:hover,
@@ -217,17 +232,19 @@
   margin-bottom: 78px;
 }
 .sign_right {
-  width: 40%;
-  background-color: var(--purple-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-image: url(./login-gb.png);
-  background-position: center;
-  background-size: contain;
-  @media screen and (max-width: 826px) {
-    display: none;
+  display: none;
+
+  @media screen and (min-width: 826px) {
+    display: unset;
+    width: 40%;
+    background-color: var(--purple-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./login-gb.png);
+    background-position: center;
+    background-size: contain;
   }
 }
 
@@ -292,16 +309,4 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.25;
-}
-/* Anim */
-.level-1 {
-  transform: translateZ(50px);
-}
-
-.preserve {
-  transform-style: preserve-3d;
-}
-
-.level-2 {
-  transform: translateZ(80px);
 }
