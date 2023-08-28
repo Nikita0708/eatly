@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import React from 'react';
 import svg from '../images/svg.svg';
 import '../css/Singning/sign.css';
