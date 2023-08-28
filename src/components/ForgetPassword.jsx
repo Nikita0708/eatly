@@ -1,19 +1,25 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React from 'react';
 import svg from '../images/svg.svg';
 import '../css/Singning/sign.css';
 import s from '../css/Singning/sign.module.css';
+import { useNavigate } from 'react-router';
 
 export const ForgetPassword = () => {
+  const hist = useNavigate();
+  const goBack = () => {
+    hist(-1);
+  };
   return (
     <>
       <div className={s.sign_container}>
-        <NavLink to="/eatly/" className={s.sign_logo}>
-          <svg className={s.sign_svg} width={53} height={49}>
-            <use href={svg + '#icon-logo-sign'}></use>
-          </svg>
-        </NavLink>
         <div className={s.sign_left}>
+          <button onClick={goBack} type="btn" className={s.sign_logo}>
+            <svg className={s.sign_svg} width={53} height={49}>
+              <use href={svg + '#icon-logo-sign'}></use>
+            </svg>
+            Back
+          </button>
           <h1 className={s.title_left}>Forget Password</h1>
           <p className={s.email_text}>Enter Your Mail To Reset</p>
           <form className={s.form}>

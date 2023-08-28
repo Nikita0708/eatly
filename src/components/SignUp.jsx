@@ -1,19 +1,25 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React from 'react';
 import svg from '../images/svg.svg';
 import '../css/Singning/sign.css';
 import s from '../css/Singning/sign.module.css';
+import { useNavigate } from 'react-router';
 
 export const SignUp = () => {
+  const hist = useNavigate();
+  const goBack = () => {
+    hist(-1);
+  };
   return (
     <>
       <div className={s.sign_container}>
         <div className={s.sign_left}>
-          <NavLink to="/eatly/" className={s.sign_logo}>
+          <button onClick={goBack} type="btn" className={s.sign_logo}>
             <svg className={s.sign_svg} width={53} height={49}>
               <use href={svg + '#icon-logo-sign'}></use>
             </svg>
-          </NavLink>
+            Back
+          </button>
           <h1 className={s.title_left}>Sign Up To eatly</h1>
           <div className={s.btn_wrap}>
             <button type="button" className={s.btn}>
@@ -71,9 +77,9 @@ export const SignUp = () => {
           </form>
           <p className={s.bottom_text}>
             Already Have An Account?
-            <NavLink exact to="/eatly/LogIn" className={s.bottom_link}>
+            <Link to="/eatly/LogIn" className={s.bottom_link}>
               Log In
-            </NavLink>
+            </Link>
           </p>
           <div className={s.privacy}>
             <span>Privacy Policy</span>

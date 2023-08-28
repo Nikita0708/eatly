@@ -75,13 +75,13 @@ h3 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 9px;
-  color: #201f1f;
+  color: rgba(32, 31, 31, 0.2);
+
   line-height: 1.2;
   letter-spacing: 2px;
   z-index: 4;
   @media screen and (min-width: 826px) {
     font-size: 15px;
-    color: rgba(32, 31, 31, 0.2);
   }
 }
 .hero-top-text::before {
@@ -89,9 +89,9 @@ h3 {
   margin-right: 12px;
   width: 54px;
   height: 1px;
-  color: #201f1f;
+  color: #201f1f37;
   @media screen and (min-width: 826px) {
-    opacity: 0.200000003;
+    color: #201f1f2c;
     margin-right: 20px;
   }
 }

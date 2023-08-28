@@ -11,7 +11,7 @@ export const MobHeader = () => {
   return (
     <header className={s.header}>
       <div className="container">
-        <NavLink exact to="/eatly/" className="header-logo">
+        <NavLink to="/eatly/" className="header-logo">
           <svg className="header-logo-svg" width={112} height={42.3}>
             <use href={svg + '#icon-logo'}></use>
           </svg>
@@ -54,7 +54,6 @@ export const MobHeader = () => {
             </li>
             <li className="mob-menu-item">
               <NavLink
-                exact
                 to="/eatly/Blog/"
                 className="mob-menu-link"
                 onClick={handleModal}
@@ -64,7 +63,6 @@ export const MobHeader = () => {
             </li>
             <li className="mob-menu-item">
               <NavLink
-                exact
                 to="/eatly/Pricing/"
                 className="mob-menu-link"
                 onClick={handleModal}
@@ -74,12 +72,29 @@ export const MobHeader = () => {
             </li>
             <li className="mob-menu-item">
               <NavLink
-                exact
                 to="/eatly/Contact/"
                 className="mob-menu-link"
                 onClick={handleModal}
               >
                 Contact
+              </NavLink>
+            </li>
+            <li className="mob-menu-item">
+              <NavLink
+                to="/eatly/login/"
+                className="mob-menu-sign"
+                onClick={handleModal}
+              >
+                Log in
+              </NavLink>
+            </li>
+            <li className="mob-menu-item">
+              <NavLink
+                to="/eatly/signup/"
+                className="mob-menu-sign"
+                onClick={handleModal}
+              >
+                Sign up
               </NavLink>
             </li>
           </ul>

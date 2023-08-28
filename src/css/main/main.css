@@ -63,6 +63,14 @@
   letter-spacing: normal;
   font-size: 21px;
 }
+.mob-menu-sign {
+  display: block;
+  padding: 10px 20px;
+  color: var(--purple-color);
+  letter-spacing: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
 .info-list {
   display: flex;
   flex-direction: column;
