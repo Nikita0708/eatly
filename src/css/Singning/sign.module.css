@@ -171,10 +171,11 @@
   transition: 0.2s;
   @media screen and (max-width: 826px) {
     width: unset;
+    height: 60px;
+
     max-width: 309px;
     min-width: 150px;
     flex-grow: 1px;
-    height: 60px;
   }
 }
 .input:hover,
