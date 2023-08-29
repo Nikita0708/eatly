@@ -80,7 +80,7 @@
   margin-right: 21px;
 }
 .btn_wrap {
-  margin-bottom: 27px;
+  margin-bottom: 20px;
   display: flex;
   @media screen and (min-width: 826px) {
     margin-bottom: 33px;
@@ -94,7 +94,7 @@
   line-height: normal;
   letter-spacing: 0.6px;
   text-transform: uppercase;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
   @media screen and (min-width: 826px) {
     margin-bottom: 35px;
     font-size: 20.011px;
@@ -153,8 +153,7 @@
   }
 }
 .input {
-  width: 303px;
-  height: 74px;
+  height: 60px;
   padding-left: 79px;
   border: 2px solid transparent;
   background-color: #cfcfcf46;
@@ -169,13 +168,10 @@
   letter-spacing: 1.167px;
   text-transform: uppercase;
   transition: 0.2s;
-  @media screen and (max-width: 826px) {
+  @media screen and (min-width: 826px) {
     width: unset;
-    height: 60px;
-
-    max-width: 309px;
-    min-width: 150px;
-    flex-grow: 1px;
+    width: 303px;
+    height: 74px;
   }
 }
 .input:hover,
@@ -187,7 +183,7 @@
   fill: #6c5fbc;
 }
 .btn_submit {
-  height: 74px;
+  height: 60px;
   border: 0;
   border-radius: 16.564px;
   background-color: var(--purple-color);
@@ -197,15 +193,21 @@
   font-weight: 600;
   letter-spacing: 0.534px;
   text-transform: uppercase;
+  @media screen and (min-width: 826px) {
+    height: 74px;
+  }
 }
 .bottom_text {
   color: #3e3e3e;
   font-family: Poppins;
-  font-size: 18.9px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.189px;
+  @media screen and (min-width: 826px) {
+    font-size: 18.9px;
+  }
 }
 .bottom_link {
   color: #6c5fbc;
