@@ -46,7 +46,7 @@
   font-family: Poppins;
   font-size: 28px;
   font-weight: 600;
-  margin-bottom: 38px;
+  margin-bottom: 20px;
   line-height: 1.25;
   letter-spacing: -1.41px;
   @media screen and (min-width: 826px) {
@@ -112,7 +112,7 @@
 }
 .input_wrap {
   position: relative;
-  margin-bottom: 19px;
+  margin-bottom: 12px;
   @media screen and (min-width: 826px) {
     margin-bottom: 24px;
   }
@@ -122,32 +122,35 @@
   fill: #c2c3cb;
 }
 .svg_name {
-  top: 26px;
+  top: 23px;
   left: 24px;
   transition: 0.2s;
   width: 16px;
   height: 18px;
   @media screen and (min-width: 826px) {
+    top: 26px;
     width: unset;
     height: unset;
   }
 }
 .svg_email {
-  top: 29px;
+  top: 25px;
   left: 23px;
   width: 18px;
   height: 14px;
   @media screen and (min-width: 826px) {
+    top: 29px;
     width: unset;
     height: unset;
   }
 }
 .svg_pass {
-  top: 25px;
+  top: 23px;
   left: 23px;
   width: 15px;
   height: 19px;
   @media screen and (min-width: 826px) {
+    top: 25px;
     width: unset;
     height: unset;
   }
@@ -222,6 +225,10 @@
   width: 100%;
   bottom: 40px;
   justify-content: space-around;
+  font-size: 13px;
+  @media screen and (min-width: 826px) {
+    font-size: 16px;
+  }
 }
 
 .hero-right-wrap {
