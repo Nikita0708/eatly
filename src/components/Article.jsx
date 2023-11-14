@@ -62,7 +62,7 @@ export const Article = () => {
                 Latin professor at Hampden-Sydney College in Virginia, looked up
                 one of the more obscure Latin words, consectetur, from a Lorem
                 Ipsum passage, and going through the cites of the word in
-                classical literature, discovered the undoubtable source.
+                classical literature, discovered the undoubtable sourcee.
               </p>
               <h2 className={s.article_left_title}>Place your order</h2>
               <p className={s.article_text_sec}>
